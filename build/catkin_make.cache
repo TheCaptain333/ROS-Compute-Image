@@ -1,0 +1,2 @@
+compute_image
+-DCATKIN_DEVEL_PREFIX=/home/thecaptain/TASKS/devel -DCMAKE_INSTALL_PREFIX=/home/thecaptain/TASKS/install -G Unix Makefiles

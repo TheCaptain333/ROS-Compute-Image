@@ -1,0 +1,8 @@
+<launch>
+    <node name="player_node" pkg="compute_image" type="player.py" output="screen">
+    <param name="image_height" value="512" /> 
+    <param name="image_width" value="512" />
+    </node>
+    <node name="checker_node" pkg="compute_image" type="checker.py" output="screen">
+    </node>
+</launch>
