@@ -1,8 +1,0 @@
-prefix=/home/thecaptain/TASKS/install
-
-Name: compute_image
-Description: Description of compute_image
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
