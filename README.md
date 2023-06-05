@@ -16,14 +16,14 @@ Before building the repository, make sure that the catkin workspace has been cre
     cd ~/catkin_ws/src
     git clone https://github.com/TheCaptain333/ROS-Compute-Image.git
     cd ../
-    catkin build ROS_compute_image
+    catkin build ROS-Compute-Image
     source ~/catkin_ws/devel/setup.bash
 ```
 
 ## 3. Running the Challenge: 
 ```
     cd catkin_ws/src
-    roslaunch ROS_compute_image compute_image.launch
+    roslaunch ROS-Compute-Image compute_image.launch
 ```
 You can change the dimennsions of image from /launch/compute_image.launch
 Changing the dimensions may affect execution speed
