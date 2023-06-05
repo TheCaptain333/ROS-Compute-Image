@@ -25,5 +25,5 @@ Before building the repository, make sure that the catkin workspace has been cre
     cd catkin_ws/src
     roslaunch compute_image compute_image.launch
 ```
-You can change the dimennsions of image from /launch/compute_image.launch
+You can change the dimennsions of image from /launch/compute_image.launch.
 Changing the dimensions may affect execution speed
